@@ -70,10 +70,7 @@ public class kontrollerActivity extends AppCompatActivity {
 
 
 
-        MobileAds.initialize(this,"ca-app-pub-7334446571364171~2263897967");
-        adView=(AdView)findViewById(R.id.adView);
-        AdRequest adRequest=new AdRequest.Builder().build();
-        adView.loadAd(adRequest);
+
 
 
         Toast.makeText(getBaseContext(), "BAĞLANTI BAŞARILI", Toast.LENGTH_SHORT).show();

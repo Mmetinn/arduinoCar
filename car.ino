@@ -9,7 +9,7 @@
   int trigPin = 6; //Uzaklık sensöründen deger okuma pini
   int echoPin = 5; //Uzaklık sensöründen deger okuma pini
   long sure; //Sendorun calisma suresidir buna göre uzaklık hesaplanır
-  long uzaklik; 
+  long  ; 
   int kesme=13; //Dış kesmeyi bağladığım pin 
   char dur_pin=2; //Kesme pini
   int i=0;
